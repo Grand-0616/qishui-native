@@ -1,0 +1,44 @@
+{
+  "songs": [
+    {
+      "track_id": "demo-1",
+      "name": "示例曲目（请替换）",
+      "artists": [
+        "示例歌手"
+      ],
+      "album": "示例专辑",
+      "duration": 215000,
+      "gears": [
+        {
+          "quality": "lossless",
+          "bitrate": 1411,
+          "fmt": "fLaC",
+          "size": 30000000
+        },
+        {
+          "quality": "medium",
+          "bitrate": 128,
+          "fmt": "mp4a",
+          "size": 3500000
+        }
+      ]
+    },
+    {
+      "track_id": "demo-2",
+      "name": "Brave Heart",
+      "artists": [
+        "示例歌手"
+      ],
+      "album": "示例专辑",
+      "duration": 240000,
+      "gears": [
+        {
+          "quality": "higher",
+          "bitrate": 256,
+          "fmt": "mp4a",
+          "size": 7000000
+        }
+      ]
+    }
+  ]
+}

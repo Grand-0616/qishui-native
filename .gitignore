@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 打包产物 ----
+build/
+dist/
+*.spec.bak
+installer/output/
+*.log
+
+# ---- 运行期数据（含隐私，切勿提交）----
+data/config.json
+data/exported.json
+data/library.json
+data/selftest.txt
+data/credential.cache
+data/cookie*
+data/covers/
+music/
+*.flac
+*.m4a
+*.mp3
+*.lrc
+cover.jpg
+
+# ---- 临时调试 ----
+_t_*.py
+_tmp_*.py
+*.tmp
+
+# ---- PyInstaller 生成 ----
+*.spec

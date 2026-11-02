@@ -1,11 +1,11 @@
-; 汽水音乐原生导出器 —— Inno Setup 安装包脚本
+; 汽水音乐本地整理工具 —— Inno Setup 安装包脚本
 ; 用法：安装 Inno Setup 6 后，运行 build_installer.ps1（或右键本文件 Compile）
 ; 产物：installer\output\QishuiNative-Setup-<版本>.exe
 
-#define AppName "汽水音乐原生导出器"
+#define AppName "汽水音乐本地整理工具"
 #define AppVer "1.0.0"
 #define AppExe "QishuiNative.exe"
-#define AppPublisher "local"
+#define AppPublisher "Grand-0616"
 #define SrcDir "..\dist\QishuiNative"
 
 [Setup]
@@ -13,6 +13,8 @@ AppId={{B7C41E52-9C1D-4F6B-8A03-2E0D5F1C7A44}
 AppName={#AppName}
 AppVersion={#AppVer}
 AppPublisher={#AppPublisher}
+AppPublisherURL=https://github.com/Grand-0616/qishui-native
+AppSupportURL=https://github.com/Grand-0616/qishui-native/issues
 DefaultDirName={localappdata}\Programs\QishuiNative
 DefaultGroupName={#AppName}
 DisableProgramGroupPage=yes

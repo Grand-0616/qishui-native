@@ -21,7 +21,7 @@ from .settings_dialog import SettingsDialog
 from .workers import (BatchExportWorker, ExportWorker, LocalizeWorker,
                       RefreshExportWorker, ScanWorker)
 
-APP_TITLE = "汽水音乐 · 原生导出器"
+APP_TITLE = "汽水音乐 · 本地整理"
 
 
 def _human_size(n):

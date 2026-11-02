@@ -1,5 +1,7 @@
 # QishuiNative
 
+作者：[@Grand-0616](https://github.com/Grand-0616) · 许可：[MIT](LICENSE)
+
 一个基于 **PySide6** 的 Windows 桌面工具：曲库浏览、模糊搜索、批量导出队列，以及**把歌词与封面写进音频文件**。
 本仓库是**开源版**，只包含界面层与通用工具层。
 

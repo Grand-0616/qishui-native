@@ -35,3 +35,6 @@ _tmp_*.py
 
 # ---- PyInstaller 生成 ----
 *.spec
+
+# Release 说明临时文件
+_release_notes.md
